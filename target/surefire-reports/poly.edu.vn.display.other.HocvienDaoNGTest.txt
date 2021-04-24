@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: poly.edu.vn.display.other.HocvienDaoNGTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 5.607 s <<< FAILURE! - in poly.edu.vn.display.other.HocvienDaoNGTest
+poly.edu.vn.display.other.HocvienDaoNGTest.testDelete  Time elapsed: 0.113 s  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at poly.edu.vn.display.other.HocvienDaoNGTest.testDelete(HocvienDaoNGTest.java:105)
+
+poly.edu.vn.display.other.HocvienDaoNGTest.testInsertWithEmptyModel  Time elapsed: 0.003 s  <<< FAILURE!
+org.testng.TestException: 
+
+Method HocvienDaoNGTest.testInsertWithEmptyModel()[pri:0, instance:poly.edu.vn.display.other.HocvienDaoNGTest_$$_jvstf4e_0@41f69e84] should have thrown an exception of type class java.lang.Exception
+
+poly.edu.vn.display.other.HocvienDaoNGTest.testSelect  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.NullPointerException
+	at poly.edu.vn.display.other.HocvienDaoNGTest.testSelect(HocvienDaoNGTest.java:113)
+
+poly.edu.vn.display.other.HocvienDaoNGTest.testUpdate  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at poly.edu.vn.display.other.HocvienDaoNGTest.testUpdate(HocvienDaoNGTest.java:95)
+

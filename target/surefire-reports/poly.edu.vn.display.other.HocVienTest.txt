@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: poly.edu.vn.display.other.HocVienTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.572 s <<< FAILURE! - in poly.edu.vn.display.other.HocVienTest
+poly.edu.vn.display.other.HocVienTest.testGetDiem on testGetDiem(poly.edu.vn.display.other.HocVienTest)  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: expected:<0.0> but was:<-1.0>
+	at poly.edu.vn.display.other.HocVienTest.testGetDiem(HocVienTest.java:115)
+
+poly.edu.vn.display.other.HocVienTest.testGetMaNH on testGetMaNH(poly.edu.vn.display.other.HocVienTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected:<> but was:<null>
+	at poly.edu.vn.display.other.HocVienTest.testGetMaNH(HocVienTest.java:90)
+
+poly.edu.vn.display.other.HocVienTest.testSetDiemWithLage on testSetDiemWithLage(poly.edu.vn.display.other.HocVienTest)  Time elapsed: 0.011 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.Exception to be thrown, but nothing was thrown.
+	at poly.edu.vn.display.other.HocVienTest.testSetDiemWithLage(HocVienTest.java:151)
+
+poly.edu.vn.display.other.HocVienTest.testSetDiemWithNegative on testSetDiemWithNegative(poly.edu.vn.display.other.HocVienTest)  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.Exception to be thrown, but nothing was thrown.
+	at poly.edu.vn.display.other.HocVienTest.testSetDiemWithNegative(HocVienTest.java:138)
+

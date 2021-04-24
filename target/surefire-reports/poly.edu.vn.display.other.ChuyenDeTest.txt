@@ -1,0 +1,50 @@
+-------------------------------------------------------------------------------
+Test set: poly.edu.vn.display.other.ChuyenDeTest
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 0, Errors: 15, Skipped: 0, Time elapsed: 0.112 s <<< FAILURE! - in poly.edu.vn.display.other.ChuyenDeTest
+testGetTenCD  Time elapsed: 0.048 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/jupiter/api/extension/TestInstancePreDestroyCallback
+Caused by: java.lang.ClassNotFoundException: org.junit.jupiter.api.extension.TestInstancePreDestroyCallback
+
+testSetThoiLuong  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/jupiter/api/extension/TestInstancePreDestroyCallback
+
+testGetHinh  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/jupiter/api/extension/TestInstancePreDestroyCallback
+
+testGetMaCD  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/jupiter/api/extension/TestInstancePreDestroyCallback
+
+testGetMoTa  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/jupiter/api/extension/TestInstancePreDestroyCallback
+
+testSetHocPhiWithLarge  Time elapsed: 0.007 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/jupiter/api/extension/TestInstancePreDestroyCallback
+
+testSetHocPhi  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/jupiter/api/extension/TestInstancePreDestroyCallback
+
+testSetHocPhiWithNegative  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/jupiter/api/extension/TestInstancePreDestroyCallback
+
+testGetHocPhi  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/jupiter/api/extension/TestInstancePreDestroyCallback
+
+testGetThoiLuong  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/jupiter/api/extension/TestInstancePreDestroyCallback
+
+testSetThoiLuongWithNegative  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/jupiter/api/extension/TestInstancePreDestroyCallback
+
+testSetHinh  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/jupiter/api/extension/TestInstancePreDestroyCallback
+
+testSetMaCD  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/jupiter/api/extension/TestInstancePreDestroyCallback
+
+testSetMoTa  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/jupiter/api/extension/TestInstancePreDestroyCallback
+
+testSetTenCD  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/jupiter/api/extension/TestInstancePreDestroyCallback
+

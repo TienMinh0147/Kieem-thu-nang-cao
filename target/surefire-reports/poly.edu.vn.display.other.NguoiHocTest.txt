@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: poly.edu.vn.display.other.NguoiHocTest
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 0.784 s <<< FAILURE! - in poly.edu.vn.display.other.NguoiHocTest
+poly.edu.vn.display.other.NguoiHocTest.testGetGmail on testGetGmail(poly.edu.vn.display.other.NguoiHocTest)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: expected:<> but was:<null>
+	at poly.edu.vn.display.other.NguoiHocTest.testGetGmail(NguoiHocTest.java:179)
+
+poly.edu.vn.display.other.NguoiHocTest.testGetHoten on testGetHoten(poly.edu.vn.display.other.NguoiHocTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<> but was:<null>
+	at poly.edu.vn.display.other.NguoiHocTest.testGetHoten(NguoiHocTest.java:80)
+
+poly.edu.vn.display.other.NguoiHocTest.testGetMaNH on testGetMaNH(poly.edu.vn.display.other.NguoiHocTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<> but was:<null>
+	at poly.edu.vn.display.other.NguoiHocTest.testGetMaNH(NguoiHocTest.java:56)
+
+poly.edu.vn.display.other.NguoiHocTest.testGetMaNV on testGetMaNV(poly.edu.vn.display.other.NguoiHocTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected:<> but was:<null>
+	at poly.edu.vn.display.other.NguoiHocTest.testGetMaNV(NguoiHocTest.java:229)
+
+poly.edu.vn.display.other.NguoiHocTest.testGetGhichu on testGetGhichu(poly.edu.vn.display.other.NguoiHocTest)  Time elapsed: 0.015 s  <<< FAILURE!
+java.lang.AssertionError: expected:<> but was:<null>
+	at poly.edu.vn.display.other.NguoiHocTest.testGetGhichu(NguoiHocTest.java:204)
+
+poly.edu.vn.display.other.NguoiHocTest.testGetNgayDK on testGetNgayDK(poly.edu.vn.display.other.NguoiHocTest)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: expected:<null> but was:<Wed Jun 24 08:57:45 ICT 2020>
+	at poly.edu.vn.display.other.NguoiHocTest.testGetNgayDK(NguoiHocTest.java:254)
+
+poly.edu.vn.display.other.NguoiHocTest.testGetDienthoai on testGetDienthoai(poly.edu.vn.display.other.NguoiHocTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected:<> but was:<null>
+	at poly.edu.vn.display.other.NguoiHocTest.testGetDienthoai(NguoiHocTest.java:154)
+

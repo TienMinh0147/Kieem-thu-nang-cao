@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: poly.edu.vn.display.other.ChuyendeDaoTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 4.694 s <<< FAILURE! - in poly.edu.vn.display.other.ChuyendeDaoTest
+poly.edu.vn.display.other.ChuyendeDaoTest.testInsertWithEmptyModel on testInsertWithEmptyModel(poly.edu.vn.display.other.ChuyendeDaoTest)  Time elapsed: 2.91 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.lang.Exception
+
+poly.edu.vn.display.other.ChuyendeDaoTest.testUpdateWithNEmptyModel on testUpdateWithNEmptyModel(poly.edu.vn.display.other.ChuyendeDaoTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.lang.Exception
+
+poly.edu.vn.display.other.ChuyendeDaoTest.testDeleteWithEmptyId on testDeleteWithEmptyId(poly.edu.vn.display.other.ChuyendeDaoTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.lang.Exception
+
+poly.edu.vn.display.other.ChuyendeDaoTest.testDeleteWithNullID on testDeleteWithNullID(poly.edu.vn.display.other.ChuyendeDaoTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.lang.Exception
+
+poly.edu.vn.display.other.ChuyendeDaoTest.testTim on testTim(poly.edu.vn.display.other.ChuyendeDaoTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at poly.edu.vn.display.other.ChuyendeDaoTest.testTim(ChuyendeDaoTest.java:158)
+

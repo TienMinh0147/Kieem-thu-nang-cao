@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: poly.edu.vn.display.other.NhanVienTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.621 s <<< FAILURE! - in poly.edu.vn.display.other.NhanVienTest
+poly.edu.vn.display.other.NhanVienTest.testGetHoTen on testGetHoTen(poly.edu.vn.display.other.NhanVienTest)  Time elapsed: 0.016 s  <<< FAILURE!
+java.lang.AssertionError: expected:<> but was:<null>
+	at poly.edu.vn.display.other.NhanVienTest.testGetHoTen(NhanVienTest.java:103)
+
+poly.edu.vn.display.other.NhanVienTest.testGetMaNV on testGetMaNV(poly.edu.vn.display.other.NhanVienTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<> but was:<null>
+	at poly.edu.vn.display.other.NhanVienTest.testGetMaNV(NhanVienTest.java:53)
+
+poly.edu.vn.display.other.NhanVienTest.testGetMatKhau on testGetMatKhau(poly.edu.vn.display.other.NhanVienTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<> but was:<null>
+	at poly.edu.vn.display.other.NhanVienTest.testGetMatKhau(NhanVienTest.java:78)
+

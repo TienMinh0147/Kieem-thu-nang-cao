@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: poly.edu.vn.display.other.ThongkeDaoNgTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.455 s <<< FAILURE! - in poly.edu.vn.display.other.ThongkeDaoNgTest
+poly.edu.vn.display.other.ThongkeDaoNgTest.testGetNguoiHoc  Time elapsed: 0.096 s  <<< FAILURE!
+java.lang.AssertionError: expected:<0> but was:<1>
+	at poly.edu.vn.display.other.ThongkeDaoNgTest.testGetNguoiHoc(ThongkeDaoNgTest.java:81)
+

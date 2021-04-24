@@ -1,0 +1,117 @@
+# Created at 2020-06-24T21:31:07.381
+Jun 24, 2020 9:31:07 PM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
+
+# Created at 2020-06-24T21:31:07.382
+WARNING: TestEngine with ID 'junit-vintage' failed to discover tests
+
+# Created at 2020-06-24T21:31:07.383
+java.lang.NoClassDefFoundError: org/junit/platform/commons/util/LruCache
+
+# Created at 2020-06-24T21:31:07.384
+	at org.junit.vintage.engine.descriptor.TestSourceProvider.<init>(TestSourceProvider.java:38)
+
+# Created at 2020-06-24T21:31:07.385
+	at org.junit.vintage.engine.discovery.VintageDiscoverer.discover(VintageDiscoverer.java:42)
+
+# Created at 2020-06-24T21:31:07.387
+	at org.junit.vintage.engine.VintageTestEngine.discover(VintageTestEngine.java:63)
+
+# Created at 2020-06-24T21:31:07.388
+	at org.junit.platform.launcher.core.DefaultLauncher.discoverEngineRoot(DefaultLauncher.java:168)
+
+# Created at 2020-06-24T21:31:07.389
+	at org.junit.platform.launcher.core.DefaultLauncher.discoverRoot(DefaultLauncher.java:155)
+
+# Created at 2020-06-24T21:31:07.390
+	at org.junit.platform.launcher.core.DefaultLauncher.discover(DefaultLauncher.java:120)
+
+# Created at 2020-06-24T21:31:07.390
+	at org.apache.maven.surefire.junitplatform.TestPlanScannerFilter.accept(TestPlanScannerFilter.java:56)
+
+# Created at 2020-06-24T21:31:07.391
+	at org.apache.maven.surefire.util.DefaultScanResult.applyFilter(DefaultScanResult.java:102)
+
+# Created at 2020-06-24T21:31:07.393
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.scanClasspath(JUnitPlatformProvider.java:129)
+
+# Created at 2020-06-24T21:31:07.394
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:117)
+
+# Created at 2020-06-24T21:31:07.395
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+
+# Created at 2020-06-24T21:31:07.397
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+
+# Created at 2020-06-24T21:31:07.398
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+
+# Created at 2020-06-24T21:31:07.399
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+
+# Created at 2020-06-24T21:31:07.400
+Caused by: java.lang.ClassNotFoundException: org.junit.platform.commons.util.LruCache
+
+# Created at 2020-06-24T21:31:07.401
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+
+# Created at 2020-06-24T21:31:07.402
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+
+# Created at 2020-06-24T21:31:07.403
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+
+# Created at 2020-06-24T21:31:07.404
+	... 14 more
+
+# Created at 2020-06-24T21:31:07.405
+
+
+# Created at 2020-06-24T21:31:07.461
+Jun 24, 2020 9:31:07 PM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
+
+# Created at 2020-06-24T21:31:07.462
+WARNING: TestEngine with ID 'junit-vintage' failed to discover tests
+
+# Created at 2020-06-24T21:31:07.463
+java.lang.NoClassDefFoundError: org/junit/platform/commons/util/LruCache
+
+# Created at 2020-06-24T21:31:07.464
+	at org.junit.vintage.engine.descriptor.TestSourceProvider.<init>(TestSourceProvider.java:38)
+
+# Created at 2020-06-24T21:31:07.465
+	at org.junit.vintage.engine.discovery.VintageDiscoverer.discover(VintageDiscoverer.java:42)
+
+# Created at 2020-06-24T21:31:07.467
+	at org.junit.vintage.engine.VintageTestEngine.discover(VintageTestEngine.java:63)
+
+# Created at 2020-06-24T21:31:07.468
+	at org.junit.platform.launcher.core.DefaultLauncher.discoverEngineRoot(DefaultLauncher.java:168)
+
+# Created at 2020-06-24T21:31:07.469
+	at org.junit.platform.launcher.core.DefaultLauncher.discoverRoot(DefaultLauncher.java:155)
+
+# Created at 2020-06-24T21:31:07.470
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+
+# Created at 2020-06-24T21:31:07.471
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:142)
+
+# Created at 2020-06-24T21:31:07.472
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:117)
+
+# Created at 2020-06-24T21:31:07.473
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+
+# Created at 2020-06-24T21:31:07.474
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+
+# Created at 2020-06-24T21:31:07.475
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+
+# Created at 2020-06-24T21:31:07.477
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+
+# Created at 2020-06-24T21:31:07.478
+
+

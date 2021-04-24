@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: poly.edu.vn.display.other.KhoaHocTest
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.578 s <<< FAILURE! - in poly.edu.vn.display.other.KhoaHocTest
+poly.edu.vn.display.other.KhoaHocTest.testGetNgayTao on testGetNgayTao(poly.edu.vn.display.other.KhoaHocTest)  Time elapsed: 0.024 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <null> but was: <Wed Jun 24 08:52:03 ICT 2020>
+	at poly.edu.vn.display.other.KhoaHocTest.testGetNgayTao(KhoaHocTest.java:253)
+
+poly.edu.vn.display.other.KhoaHocTest.testGetMaCD on testGetMaCD(poly.edu.vn.display.other.KhoaHocTest)  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <> but was: <null>
+	at poly.edu.vn.display.other.KhoaHocTest.testGetMaCD(KhoaHocTest.java:71)
+
+poly.edu.vn.display.other.KhoaHocTest.testGetMaNV on testGetMaNV(poly.edu.vn.display.other.KhoaHocTest)  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <> but was: <null>
+	at poly.edu.vn.display.other.KhoaHocTest.testGetMaNV(KhoaHocTest.java:228)
+
+poly.edu.vn.display.other.KhoaHocTest.testSetHocPhi on testSetHocPhi(poly.edu.vn.display.other.KhoaHocTest)  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: positive delta expected but was: <0.0>
+	at poly.edu.vn.display.other.KhoaHocTest.testSetHocPhi(KhoaHocTest.java:111)
+
+poly.edu.vn.display.other.KhoaHocTest.testGetGhiChu on testGetGhiChu(poly.edu.vn.display.other.KhoaHocTest)  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <> but was: <null>
+	at poly.edu.vn.display.other.KhoaHocTest.testGetGhiChu(KhoaHocTest.java:203)
+
+poly.edu.vn.display.other.KhoaHocTest.testGetHocPhi on testGetHocPhi(poly.edu.vn.display.other.KhoaHocTest)  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: positive delta expected but was: <0.0>
+	at poly.edu.vn.display.other.KhoaHocTest.testGetHocPhi(KhoaHocTest.java:95)
+

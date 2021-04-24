@@ -1,0 +1,59 @@
+-------------------------------------------------------------------------------
+Test set: poly.edu.vn.display.other.ChuyenDeNGTest
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 13, Errors: 0, Skipped: 0, Time elapsed: 0.713 s <<< FAILURE! - in poly.edu.vn.display.other.ChuyenDeNGTest
+poly.edu.vn.display.other.ChuyenDeNGTest.testGetHocPhi  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at poly.edu.vn.display.other.ChuyenDeNGTest.testGetHocPhi(ChuyenDeNGTest.java:95)
+
+poly.edu.vn.display.other.ChuyenDeNGTest.testGetMaCD  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [] but found [null]
+	at poly.edu.vn.display.other.ChuyenDeNGTest.testGetMaCD(ChuyenDeNGTest.java:56)
+
+poly.edu.vn.display.other.ChuyenDeNGTest.testGetMoTa  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [] but found [null]
+	at poly.edu.vn.display.other.ChuyenDeNGTest.testGetMoTa(ChuyenDeNGTest.java:187)
+
+poly.edu.vn.display.other.ChuyenDeNGTest.testGetTenCD  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [] but found [null]
+	at poly.edu.vn.display.other.ChuyenDeNGTest.testGetTenCD(ChuyenDeNGTest.java:75)
+
+poly.edu.vn.display.other.ChuyenDeNGTest.testGetThoiLuong  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at poly.edu.vn.display.other.ChuyenDeNGTest.testGetThoiLuong(ChuyenDeNGTest.java:143)
+
+poly.edu.vn.display.other.ChuyenDeNGTest.testSetHinh  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at poly.edu.vn.display.other.ChuyenDeNGTest.testSetHinh(ChuyenDeNGTest.java:178)
+
+poly.edu.vn.display.other.ChuyenDeNGTest.testSetHocPhiWithNegative  Time elapsed: 0.001 s  <<< FAILURE!
+org.testng.TestException: 
+
+Method ChuyenDeNGTest.testSetHocPhiWithNegative()[pri:0, instance:poly.edu.vn.display.other.ChuyenDeNGTest@1dd92fe2] should have thrown an exception of type class java.lang.Exception
+
+poly.edu.vn.display.other.ChuyenDeNGTest.testSetMaCD  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at poly.edu.vn.display.other.ChuyenDeNGTest.testSetMaCD(ChuyenDeNGTest.java:66)
+
+poly.edu.vn.display.other.ChuyenDeNGTest.testSetMoTa  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at poly.edu.vn.display.other.ChuyenDeNGTest.testSetMoTa(ChuyenDeNGTest.java:197)
+
+poly.edu.vn.display.other.ChuyenDeNGTest.testSetTenCD  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at poly.edu.vn.display.other.ChuyenDeNGTest.testSetTenCD(ChuyenDeNGTest.java:85)
+
+poly.edu.vn.display.other.ChuyenDeNGTest.testSetThoiLuongWithNegative  Time elapsed: 0 s  <<< FAILURE!
+org.testng.TestException: 
+
+Method ChuyenDeNGTest.testSetThoiLuongWithNegative()[pri:0, instance:poly.edu.vn.display.other.ChuyenDeNGTest@1dd92fe2] should have thrown an exception of type class java.lang.Exception
+
+poly.edu.vn.display.other.ChuyenDeNGTest.testSetThoiLuongWithZero  Time elapsed: 0.001 s  <<< FAILURE!
+org.testng.TestException: 
+
+Method ChuyenDeNGTest.testSetThoiLuongWithZero()[pri:0, instance:poly.edu.vn.display.other.ChuyenDeNGTest@1dd92fe2] should have thrown an exception of type class java.lang.Exception
+
+poly.edu.vn.display.other.ChuyenDeNGTest.testToString  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [] but found [null]
+	at poly.edu.vn.display.other.ChuyenDeNGTest.testToString(ChuyenDeNGTest.java:46)
+

@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: poly.edu.vn.display.other.HocVienNGTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 10, Errors: 0, Skipped: 0, Time elapsed: 0.544 s <<< FAILURE! - in poly.edu.vn.display.other.HocVienNGTest
+poly.edu.vn.display.other.HocVienNGTest.testGetDiem  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: expected [0.0] but found [-1.0]
+	at poly.edu.vn.display.other.HocVienNGTest.testGetDiem(HocVienNGTest.java:113)
+
+poly.edu.vn.display.other.HocVienNGTest.testGetMaHV  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at poly.edu.vn.display.other.HocVienNGTest.testGetMaHV(HocVienNGTest.java:57)
+
+poly.edu.vn.display.other.HocVienNGTest.testGetMaKH  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at poly.edu.vn.display.other.HocVienNGTest.testGetMaKH(HocVienNGTest.java:76)
+
+poly.edu.vn.display.other.HocVienNGTest.testGetMaNH  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [] but found [null]
+	at poly.edu.vn.display.other.HocVienNGTest.testGetMaNH(HocVienNGTest.java:94)
+
+poly.edu.vn.display.other.HocVienNGTest.testSetDiem  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at poly.edu.vn.display.other.HocVienNGTest.testSetDiem(HocVienNGTest.java:123)
+
+poly.edu.vn.display.other.HocVienNGTest.testSetDiemWithNegative  Time elapsed: 0.001 s  <<< FAILURE!
+org.testng.TestException: 
+
+Method HocVienNGTest.testSetDiemWithNegative()[pri:0, instance:poly.edu.vn.display.other.HocVienNGTest@35fc6dc4] should have thrown an exception of type class java.lang.Exception
+
+poly.edu.vn.display.other.HocVienNGTest.testSetMaHV  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at poly.edu.vn.display.other.HocVienNGTest.testSetMaHV(HocVienNGTest.java:66)
+
+poly.edu.vn.display.other.HocVienNGTest.testSetMaKH  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at poly.edu.vn.display.other.HocVienNGTest.testSetMaKH(HocVienNGTest.java:85)
+
+poly.edu.vn.display.other.HocVienNGTest.testSetMaNH  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at poly.edu.vn.display.other.HocVienNGTest.testSetMaNH(HocVienNGTest.java:104)
+
+poly.edu.vn.display.other.HocVienNGTest.testToString  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.StackOverflowError
+

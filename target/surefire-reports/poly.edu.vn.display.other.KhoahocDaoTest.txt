@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: poly.edu.vn.display.other.KhoahocDaoTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 3.543 s <<< FAILURE! - in poly.edu.vn.display.other.KhoahocDaoTest
+poly.edu.vn.display.other.KhoahocDaoTest.testDeleteWithEmptyId on testDeleteWithEmptyId(poly.edu.vn.display.other.KhoahocDaoTest)  Time elapsed: 1.962 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.lang.Exception
+
+poly.edu.vn.display.other.KhoahocDaoTest.testUpdateWithNEmptyModel on testUpdateWithNEmptyModel(poly.edu.vn.display.other.KhoahocDaoTest)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.lang.Exception
+
+poly.edu.vn.display.other.KhoahocDaoTest.testDeleteWithNullID on testDeleteWithNullID(poly.edu.vn.display.other.KhoahocDaoTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.lang.Exception
+
+poly.edu.vn.display.other.KhoahocDaoTest.testInsertWithEmptyModel on testInsertWithEmptyModel(poly.edu.vn.display.other.KhoahocDaoTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.lang.Exception
+

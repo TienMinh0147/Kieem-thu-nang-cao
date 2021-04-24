@@ -1,0 +1,59 @@
+-------------------------------------------------------------------------------
+Test set: poly.edu.vn.display.other.HocvienDaoTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 3.436 s <<< FAILURE! - in poly.edu.vn.display.other.HocvienDaoTest
+poly.edu.vn.display.other.HocvienDaoTest.testSelect on testSelect(poly.edu.vn.display.other.HocvienDaoTest)  Time elapsed: 1.953 s  <<< FAILURE!
+org.powermock.reflect.exceptions.MethodNotFoundException: No method found with name 'select' with parameter types: [ java.lang.Integer ] in class poly.edu.vn.display.other.HocvienDao$MockitoMock$497864023.
+	at poly.edu.vn.display.other.HocvienDaoTest.testSelect(HocvienDaoTest.java:140)
+
+poly.edu.vn.display.other.HocvienDaoTest.testFindByIdWithFound on testFindByIdWithFound(poly.edu.vn.display.other.HocvienDaoTest)  Time elapsed: 0.007 s  <<< FAILURE!
+org.powermock.core.InvocationException: 
+org.mockito.exceptions.misusing.UnfinishedStubbingException: 
+Unfinished stubbing detected here:
+-> at poly.edu.vn.display.other.HocvienDaoTest.testSelect(HocvienDaoTest.java:140)
+
+E.g. thenReturn() may be missing.
+Examples of correct stubbing:
+    when(mock.isOk()).thenReturn(true);
+    when(mock.isOk()).thenThrow(exception);
+    doThrow(exception).when(mock).someVoidMethod();
+Hints:
+ 1. missing thenReturn()
+ 2. you are trying to stub a final method, which is not supported
+ 3: you are stubbing the behaviour of another mock inside before 'thenReturn' instruction is completed
+
+	at poly.edu.vn.display.other.HocvienDaoTest.testFindByIdWithFound(HocvienDaoTest.java:171)
+Caused by: org.mockito.exceptions.misusing.UnfinishedStubbingException: 
+
+Unfinished stubbing detected here:
+-> at poly.edu.vn.display.other.HocvienDaoTest.testSelect(HocvienDaoTest.java:140)
+
+E.g. thenReturn() may be missing.
+Examples of correct stubbing:
+    when(mock.isOk()).thenReturn(true);
+    when(mock.isOk()).thenThrow(exception);
+    doThrow(exception).when(mock).someVoidMethod();
+Hints:
+ 1. missing thenReturn()
+ 2. you are trying to stub a final method, which is not supported
+ 3: you are stubbing the behaviour of another mock inside before 'thenReturn' instruction is completed
+
+	at poly.edu.vn.display.other.HocvienDaoTest.testFindByIdWithFound(HocvienDaoTest.java:171)
+
+poly.edu.vn.display.other.HocvienDaoTest.testDeleteWithNullID on testDeleteWithNullID(poly.edu.vn.display.other.HocvienDaoTest)  Time elapsed: 0.034 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.lang.Exception
+
+poly.edu.vn.display.other.HocvienDaoTest.testUpdateWithNEmptyModel on testUpdateWithNEmptyModel(poly.edu.vn.display.other.HocvienDaoTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.lang.Exception
+
+poly.edu.vn.display.other.HocvienDaoTest.testDeleteWithEmptyId on testDeleteWithEmptyId(poly.edu.vn.display.other.HocvienDaoTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.lang.Exception
+
+poly.edu.vn.display.other.HocvienDaoTest.testFindByIdWithNotFound on testFindByIdWithNotFound(poly.edu.vn.display.other.HocvienDaoTest)  Time elapsed: 0.006 s  <<< FAILURE!
+org.mockito.exceptions.misusing.NotAMockException: 
+
+Argument passed to when() is not a mock!
+Example of correct stubbing:
+    doThrow(new RuntimeException()).when(mock).someMethod();
+	at poly.edu.vn.display.other.HocvienDaoTest.testFindByIdWithNotFound(HocvienDaoTest.java:153)
+

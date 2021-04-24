@@ -1,0 +1,54 @@
+-------------------------------------------------------------------------------
+Test set: poly.edu.vn.display.other.NguochocDaoTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 10, Errors: 0, Skipped: 0, Time elapsed: 3.222 s <<< FAILURE! - in poly.edu.vn.display.other.NguochocDaoTest
+poly.edu.vn.display.other.NguochocDaoTest.testSelect on testSelect(poly.edu.vn.display.other.NguochocDaoTest)  Time elapsed: 1.906 s  <<< FAILURE!
+java.lang.NullPointerException
+	at poly.edu.vn.display.other.NguochocDaoTest.testSelect(NguochocDaoTest.java:149)
+
+poly.edu.vn.display.other.NguochocDaoTest.testSelectByCourse on testSelectByCourse(poly.edu.vn.display.other.NguochocDaoTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.NullPointerException
+	at poly.edu.vn.display.other.NguochocDaoTest.testSelectByCourse(NguochocDaoTest.java:171)
+
+poly.edu.vn.display.other.NguochocDaoTest.testInsertWithEmptyModel on testInsertWithEmptyModel(poly.edu.vn.display.other.NguochocDaoTest)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.lang.Exception
+
+poly.edu.vn.display.other.NguochocDaoTest.testUpdateWithNEmptyModel on testUpdateWithNEmptyModel(poly.edu.vn.display.other.NguochocDaoTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.lang.Exception
+
+poly.edu.vn.display.other.NguochocDaoTest.testSelectByKeyword on testSelectByKeyword(poly.edu.vn.display.other.NguochocDaoTest)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.NullPointerException
+	at poly.edu.vn.display.other.NguochocDaoTest.testSelectByKeyword(NguochocDaoTest.java:160)
+
+poly.edu.vn.display.other.NguochocDaoTest.testDeleteWithNullID on testDeleteWithNullID(poly.edu.vn.display.other.NguochocDaoTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.lang.Exception
+
+poly.edu.vn.display.other.NguochocDaoTest.testFindByIdWithFound on testFindByIdWithFound(poly.edu.vn.display.other.NguochocDaoTest)  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.IllegalArgumentException: mock cannot be null
+	at poly.edu.vn.display.other.NguochocDaoTest.testFindByIdWithFound(NguochocDaoTest.java:203)
+
+poly.edu.vn.display.other.NguochocDaoTest.testInsertValidModel on testInsertValidModel(poly.edu.vn.display.other.NguochocDaoTest)  Time elapsed: 0.003 s  <<< FAILURE!
+org.mockito.exceptions.misusing.UnfinishedStubbingException: 
+
+Unfinished stubbing detected here:
+-> at poly.edu.vn.display.other.NguochocDaoTest.testFindByIdWithFound(NguochocDaoTest.java:203)
+
+E.g. thenReturn() may be missing.
+Examples of correct stubbing:
+    when(mock.isOk()).thenReturn(true);
+    when(mock.isOk()).thenThrow(exception);
+    doThrow(exception).when(mock).someVoidMethod();
+Hints:
+ 1. missing thenReturn()
+ 2. you are trying to stub a final method, which is not supported
+ 3: you are stubbing the behaviour of another mock inside before 'thenReturn' instruction is completed
+
+	at poly.edu.vn.display.other.NguochocDaoTest.testInsertValidModel(NguochocDaoTest.java:88)
+
+poly.edu.vn.display.other.NguochocDaoTest.testFindByIdWithNotFound on testFindByIdWithNotFound(poly.edu.vn.display.other.NguochocDaoTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.IllegalArgumentException: mock cannot be null
+	at poly.edu.vn.display.other.NguochocDaoTest.testFindByIdWithNotFound(NguochocDaoTest.java:185)
+
+poly.edu.vn.display.other.NguochocDaoTest.testDeleteWithEmptyId on testDeleteWithEmptyId(poly.edu.vn.display.other.NguochocDaoTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.lang.Exception
+
